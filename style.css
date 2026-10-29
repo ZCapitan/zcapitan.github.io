@@ -81,3 +81,7 @@ section{padding:52px 0}
 .farlinks{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
 .card.music a:not(.btn){color:var(--gold)}
 @media(max-width:760px){.steps.vids .vid{grid-template-columns:1fr;gap:10px}}
+.vis{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0}
+.vis .thumb{border-radius:10px}
+.card.music .vid{color:#fff}
+.card.music .vid span{font-size:.95rem}
