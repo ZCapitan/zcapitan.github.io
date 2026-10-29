@@ -68,3 +68,6 @@ section{padding:52px 0}
 .cover{max-width:220px}
 }
 .thumb.tall{aspect-ratio:9/16}
+.features{padding-left:1.2em}
+.features li{margin:.6em 0}
+.features strong{color:var(--navy);display:block}
