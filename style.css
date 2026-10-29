@@ -67,3 +67,4 @@ section{padding:52px 0}
 .feature,.book,.cards,.grid{grid-template-columns:1fr;gap:32px}
 .cover{max-width:220px}
 }
+.thumb.tall{aspect-ratio:9/16}
