@@ -85,3 +85,6 @@ section{padding:52px 0}
 .vis .thumb{border-radius:10px}
 .card.music .vid{color:#fff}
 .card.music .vid span{font-size:.95rem}
+.subtitle{font-style:italic;color:var(--navy2);font-size:1.15rem;margin:-.3em 0 0}
+.byline{color:var(--muted);margin:.2em 0 1em}
+.launch{color:var(--navy)}
