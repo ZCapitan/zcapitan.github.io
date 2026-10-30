@@ -111,3 +111,5 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-full .hero-copy>*{animation:none}}
 .hero-full .proof{text-shadow:0 1px 3px rgba(9,10,34,.9),0 0 18px rgba(9,10,34,.7)}
 @media(max-width:760px),(orientation:portrait){.hero-full .hero-copy{background:radial-gradient(closest-side,rgba(9,10,34,.55) 0%,rgba(9,10,34,.4) 55%,rgba(9,10,34,0) 100%);padding-top:12px;padding-bottom:12px}}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:400;color:var(--gold);font-size:1.35rem;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;font-variation-settings:"opsz" 144}
+@media(max-width:760px){.brand{font-size:1.05rem;letter-spacing:.1em}}
