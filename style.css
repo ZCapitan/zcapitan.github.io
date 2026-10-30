@@ -101,7 +101,7 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 .hero-full::before{content:"";position:fixed;inset:0;z-index:-2;background:var(--night) var(--hero-img) center/cover no-repeat}
 .hero-full::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(9,10,34,.55) 0%,rgba(14,16,48,.15) 35%,rgba(14,16,48,.35) 55%,rgba(14,16,48,.85) 100%)}
 .hero-full .hero-copy{width:100%}
-.hero-full h1,.hero-full .lead{text-shadow:0 2px 24px rgba(0,0,0,.45)}
+.hero-full h1,.hero-full .lead,.hero-full .proof{text-shadow:0 2px 24px rgba(0,0,0,.45)}
 .over{position:relative;z-index:1;background:var(--cream);border-radius:28px 28px 0 0;margin-top:-28px;box-shadow:0 -18px 40px rgba(9,10,34,.35);overflow:hidden}
 .over>section:first-child{border-top:0}
 .hero-full .hero-copy>*{animation:rise .9s ease-out both}
