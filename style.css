@@ -110,3 +110,4 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 @media(max-width:760px){.hero-full{padding:140px 0 10vh}.over{border-radius:20px 20px 0 0;margin-top:-20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-full .hero-copy>*{animation:none}}
 .hero-full .proof{text-shadow:0 1px 3px rgba(9,10,34,.9),0 0 18px rgba(9,10,34,.7)}
+@media(max-width:760px),(orientation:portrait){.hero-full .hero-copy{background:radial-gradient(closest-side,rgba(9,10,34,.55) 0%,rgba(9,10,34,.4) 55%,rgba(9,10,34,0) 100%);padding-top:56px;padding-bottom:56px}}
