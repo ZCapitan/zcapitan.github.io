@@ -115,3 +115,8 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 @media(max-width:760px),(orientation:portrait){.hero-full .hero-copy{background:radial-gradient(closest-side,rgba(9,10,34,.55) 0%,rgba(9,10,34,.4) 55%,rgba(9,10,34,0) 100%);padding-top:12px;padding-bottom:12px}}
 .brand{font-family:Fraunces,Georgia,serif;font-weight:400;color:var(--gold);font-size:1.35rem;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;font-variation-settings:"opsz" 144}
 @media(max-width:760px){.brand{font-size:1.05rem;letter-spacing:.1em}}
+.app-icon{width:72px;height:72px;border-radius:16px;display:block;margin:18px 0 4px;object-fit:cover;box-shadow:0 8px 22px rgba(0,0,0,.28)}
+.shot{margin:0;width:100%}
+.shot figcaption{margin:12px 0 0;text-align:center;color:var(--muted);font-size:.95rem}
+.thumb.tall{overflow:hidden;position:relative;display:block;width:100%;box-shadow:0 10px 28px rgba(14,16,48,.12)}
+.thumb.tall img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:inherit}
