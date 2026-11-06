@@ -121,7 +121,8 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 .thumb.tall{overflow:hidden;position:relative;display:block;width:100%;box-shadow:0 10px 28px rgba(14,16,48,.12)}
 .thumb.tall img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:inherit}
 .farstrip{margin:8px 0 4px}
-.farrow{margin:0 0 16px}
+.farrow{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:start;margin:0 0 16px}
+.farcover{width:76px;height:76px;object-fit:cover;border-radius:12px;display:block;box-shadow:0 8px 18px rgba(14,16,48,.22)}
 .farname{margin:0 0 6px;font-family:"DM Sans",system-ui,sans-serif;font-weight:500;font-size:1rem}
 .fardate{font-weight:400;color:var(--muted);font-size:.9rem}
 .card.music .farname{color:#fff}
@@ -136,3 +137,14 @@ body:has(.hero-full) .site-header{position:absolute;top:0;left:0;right:0;z-index
 .album.secondary{padding:24px 28px;box-shadow:none;background:transparent}
 .album h2{margin-top:.15em}
 .album.secondary h2{font-size:1.45rem}
+.album-top{display:grid;grid-template-columns:148px 1fr;gap:22px;align-items:center}
+.album.secondary .album-top{grid-template-columns:112px 1fr;gap:16px}
+.album-cover{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:14px;display:block;box-shadow:0 10px 24px rgba(14,16,48,.16)}
+.play{display:block;width:100%;height:352px;margin-top:18px;border:0;border-radius:12px}
+.play.apple{height:450px}
+@media(max-width:760px){
+.album-top,.album.secondary .album-top{grid-template-columns:1fr;gap:12px}
+.album-cover{width:112px}
+.farrow{grid-template-columns:64px 1fr;gap:12px}
+.farcover{width:64px;height:64px}
+}
